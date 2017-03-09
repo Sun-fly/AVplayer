@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21CB55DBFA10F4C2876880EA /* libPods-音频视频播放器.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5734411D9F05B366DD1045A8 /* libPods-音频视频播放器.a */; };
+		4A93B7B51E71415000D33487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7B41E71415000D33487 /* main.m */; };
+		4A93B7B81E71415000D33487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7B71E71415000D33487 /* AppDelegate.m */; };
+		4A93B7BB1E71415000D33487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7BA1E71415000D33487 /* ViewController.m */; };
+		4A93B7BE1E71415000D33487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7BC1E71415000D33487 /* Main.storyboard */; };
+		4A93B7C11E71415000D33487 /* _______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7BF1E71415000D33487 /* _______.xcdatamodeld */; };
+		4A93B7C31E71415000D33487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7C21E71415000D33487 /* Assets.xcassets */; };
+		4A93B7C61E71415000D33487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7C41E71415000D33487 /* LaunchScreen.storyboard */; };
+		4A93B7D11E71415000D33487 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7D01E71415000D33487 /* _______Tests.m */; };
+		4A93B7DC1E71415000D33487 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7DB1E71415000D33487 /* _______UITests.m */; };
+		4A93B7EC1E7141D300D33487 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7E91E7141D300D33487 /* 3.mp4 */; };
+		4A93B7ED1E7141D300D33487 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7EA1E7141D300D33487 /* 2.mp4 */; };
+		4A93B7EE1E7141D300D33487 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7EB1E7141D300D33487 /* 1.mp4 */; };
+		4A93B7F11E71543C00D33487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A93B7F01E71543C00D33487 /* AVFoundation.framework */; };
+		4A93B7FA1E7165CE00D33487 /* ZHOUTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7F91E7165CE00D33487 /* ZHOUTitleButton.m */; };
+		4A93B7FD1E71668C00D33487 /* UIView+ZHOUExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7FC1E71668C00D33487 /* UIView+ZHOUExtension.m */; };
+		4A93B8011E7168A700D33487 /* ZHOUOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8001E7168A700D33487 /* ZHOUOneViewController.m */; };
+		4A93B8041E7168C100D33487 /* ZHOUTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8031E7168C100D33487 /* ZHOUTwoViewController.m */; };
+		4A93B8071E7168D700D33487 /* ZHOUThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8061E7168D700D33487 /* ZHOUThreeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A93B7CD1E71415000D33487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A93B7A81E71415000D33487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A93B7AF1E71415000D33487;
+			remoteInfo = "音频视频播放器";
+		};
+		4A93B7D81E71415000D33487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A93B7A81E71415000D33487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A93B7AF1E71415000D33487;
+			remoteInfo = "音频视频播放器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A93B7B01E71415000D33487 /* 音频视频播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音频视频播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A93B7B41E71415000D33487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A93B7B61E71415000D33487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A93B7B71E71415000D33487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A93B7B91E71415000D33487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A93B7BA1E71415000D33487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A93B7BD1E71415000D33487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A93B7C01E71415000D33487 /* _______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_______.xcdatamodel"; sourceTree = "<group>"; };
+		4A93B7C21E71415000D33487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A93B7C51E71415000D33487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A93B7C71E71415000D33487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A93B7CC1E71415000D33487 /* 音频视频播放器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频视频播放器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A93B7D01E71415000D33487 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		4A93B7D21E71415000D33487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A93B7D71E71415000D33487 /* 音频视频播放器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频视频播放器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A93B7DB1E71415000D33487 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		4A93B7DD1E71415000D33487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A93B7E91E7141D300D33487 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		4A93B7EA1E7141D300D33487 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		4A93B7EB1E7141D300D33487 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		4A93B7F01E71543C00D33487 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A93B7F81E7165CE00D33487 /* ZHOUTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUTitleButton.h; sourceTree = "<group>"; };
+		4A93B7F91E7165CE00D33487 /* ZHOUTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUTitleButton.m; sourceTree = "<group>"; };
+		4A93B7FB1E71668C00D33487 /* UIView+ZHOUExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHOUExtension.h"; sourceTree = "<group>"; };
+		4A93B7FC1E71668C00D33487 /* UIView+ZHOUExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHOUExtension.m"; sourceTree = "<group>"; };
+		4A93B7FF1E7168A700D33487 /* ZHOUOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUOneViewController.h; sourceTree = "<group>"; };
+		4A93B8001E7168A700D33487 /* ZHOUOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUOneViewController.m; sourceTree = "<group>"; };
+		4A93B8021E7168C100D33487 /* ZHOUTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUTwoViewController.h; sourceTree = "<group>"; };
+		4A93B8031E7168C100D33487 /* ZHOUTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUTwoViewController.m; sourceTree = "<group>"; };
+		4A93B8051E7168D700D33487 /* ZHOUThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUThreeViewController.h; sourceTree = "<group>"; };
+		4A93B8061E7168D700D33487 /* ZHOUThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUThreeViewController.m; sourceTree = "<group>"; };
+		5734411D9F05B366DD1045A8 /* libPods-音频视频播放器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音频视频播放器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64DE33002F0C02F16B63740 /* Pods-音频视频播放器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频视频播放器.release.xcconfig"; path = "Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器.release.xcconfig"; sourceTree = "<group>"; };
+		F95654EBB75BCACD8B0BCAAD /* Pods-音频视频播放器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频视频播放器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A93B7AD1E71415000D33487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A93B7F11E71543C00D33487 /* AVFoundation.framework in Frameworks */,
+				21CB55DBFA10F4C2876880EA /* libPods-音频视频播放器.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7C91E71415000D33487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7D41E71415000D33487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA045BD15536276C76EE18A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F95654EBB75BCACD8B0BCAAD /* Pods-音频视频播放器.debug.xcconfig */,
+				E64DE33002F0C02F16B63740 /* Pods-音频视频播放器.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A93B7A71E71415000D33487 = {
+			isa = PBXGroup;
+			children = (
+				4A93B7B21E71415000D33487 /* 音频视频播放器 */,
+				4A93B7CF1E71415000D33487 /* 音频视频播放器Tests */,
+				4A93B7DA1E71415000D33487 /* 音频视频播放器UITests */,
+				4A93B7B11E71415000D33487 /* Products */,
+				4A93B7EF1E71543C00D33487 /* Frameworks */,
+				3AA045BD15536276C76EE18A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4A93B7B11E71415000D33487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7B01E71415000D33487 /* 音频视频播放器.app */,
+				4A93B7CC1E71415000D33487 /* 音频视频播放器Tests.xctest */,
+				4A93B7D71E71415000D33487 /* 音频视频播放器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A93B7B21E71415000D33487 /* 音频视频播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B8091E718D3100D33487 /* video */,
+				4A93B8081E716BA200D33487 /* Category */,
+				4A93B7FE1E71687600D33487 /* childVC */,
+				4A93B7B61E71415000D33487 /* AppDelegate.h */,
+				4A93B7B71E71415000D33487 /* AppDelegate.m */,
+				4A93B7B91E71415000D33487 /* ViewController.h */,
+				4A93B7BA1E71415000D33487 /* ViewController.m */,
+				4A93B7BC1E71415000D33487 /* Main.storyboard */,
+				4A93B7C21E71415000D33487 /* Assets.xcassets */,
+				4A93B7C41E71415000D33487 /* LaunchScreen.storyboard */,
+				4A93B7C71E71415000D33487 /* Info.plist */,
+				4A93B7BF1E71415000D33487 /* _______.xcdatamodeld */,
+				4A93B7B31E71415000D33487 /* Supporting Files */,
+				4A93B7F81E7165CE00D33487 /* ZHOUTitleButton.h */,
+				4A93B7F91E7165CE00D33487 /* ZHOUTitleButton.m */,
+			);
+			path = "音频视频播放器";
+			sourceTree = "<group>";
+		};
+		4A93B7B31E71415000D33487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7B41E71415000D33487 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A93B7CF1E71415000D33487 /* 音频视频播放器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7D01E71415000D33487 /* _______Tests.m */,
+				4A93B7D21E71415000D33487 /* Info.plist */,
+			);
+			path = "音频视频播放器Tests";
+			sourceTree = "<group>";
+		};
+		4A93B7DA1E71415000D33487 /* 音频视频播放器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7DB1E71415000D33487 /* _______UITests.m */,
+				4A93B7DD1E71415000D33487 /* Info.plist */,
+			);
+			path = "音频视频播放器UITests";
+			sourceTree = "<group>";
+		};
+		4A93B7EF1E71543C00D33487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7F01E71543C00D33487 /* AVFoundation.framework */,
+				5734411D9F05B366DD1045A8 /* libPods-音频视频播放器.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A93B7FE1E71687600D33487 /* childVC */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7FF1E7168A700D33487 /* ZHOUOneViewController.h */,
+				4A93B8001E7168A700D33487 /* ZHOUOneViewController.m */,
+				4A93B8021E7168C100D33487 /* ZHOUTwoViewController.h */,
+				4A93B8031E7168C100D33487 /* ZHOUTwoViewController.m */,
+				4A93B8051E7168D700D33487 /* ZHOUThreeViewController.h */,
+				4A93B8061E7168D700D33487 /* ZHOUThreeViewController.m */,
+			);
+			name = childVC;
+			sourceTree = "<group>";
+		};
+		4A93B8081E716BA200D33487 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7FB1E71668C00D33487 /* UIView+ZHOUExtension.h */,
+				4A93B7FC1E71668C00D33487 /* UIView+ZHOUExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4A93B8091E718D3100D33487 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				4A93B7E91E7141D300D33487 /* 3.mp4 */,
+				4A93B7EA1E7141D300D33487 /* 2.mp4 */,
+				4A93B7EB1E7141D300D33487 /* 1.mp4 */,
+			);
+			name = video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A93B7AF1E71415000D33487 /* 音频视频播放器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A93B7E01E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器" */;
+			buildPhases = (
+				F7B7D7F37F991A947AE8AAD5 /* [CP] Check Pods Manifest.lock */,
+				4A93B7AC1E71415000D33487 /* Sources */,
+				4A93B7AD1E71415000D33487 /* Frameworks */,
+				4A93B7AE1E71415000D33487 /* Resources */,
+				9CACBDC8B1D49DF49CED4491 /* [CP] Embed Pods Frameworks */,
+				9BED2E4EE81A07BDEEE29F05 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音频视频播放器";
+			productName = "音频视频播放器";
+			productReference = 4A93B7B01E71415000D33487 /* 音频视频播放器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A93B7CB1E71415000D33487 /* 音频视频播放器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A93B7E31E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器Tests" */;
+			buildPhases = (
+				4A93B7C81E71415000D33487 /* Sources */,
+				4A93B7C91E71415000D33487 /* Frameworks */,
+				4A93B7CA1E71415000D33487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A93B7CE1E71415000D33487 /* PBXTargetDependency */,
+			);
+			name = "音频视频播放器Tests";
+			productName = "音频视频播放器Tests";
+			productReference = 4A93B7CC1E71415000D33487 /* 音频视频播放器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A93B7D61E71415000D33487 /* 音频视频播放器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A93B7E61E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器UITests" */;
+			buildPhases = (
+				4A93B7D31E71415000D33487 /* Sources */,
+				4A93B7D41E71415000D33487 /* Frameworks */,
+				4A93B7D51E71415000D33487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A93B7D91E71415000D33487 /* PBXTargetDependency */,
+			);
+			name = "音频视频播放器UITests";
+			productName = "音频视频播放器UITests";
+			productReference = 4A93B7D71E71415000D33487 /* 音频视频播放器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A93B7A81E71415000D33487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZHOU;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhouya;
+				TargetAttributes = {
+					4A93B7AF1E71415000D33487 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V28X4C3PPV;
+						ProvisioningStyle = Automatic;
+					};
+					4A93B7CB1E71415000D33487 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V28X4C3PPV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A93B7AF1E71415000D33487;
+					};
+					4A93B7D61E71415000D33487 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = V28X4C3PPV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4A93B7AF1E71415000D33487;
+					};
+				};
+			};
+			buildConfigurationList = 4A93B7AB1E71415000D33487 /* Build configuration list for PBXProject "音频视频播放器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A93B7A71E71415000D33487;
+			productRefGroup = 4A93B7B11E71415000D33487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A93B7AF1E71415000D33487 /* 音频视频播放器 */,
+				4A93B7CB1E71415000D33487 /* 音频视频播放器Tests */,
+				4A93B7D61E71415000D33487 /* 音频视频播放器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A93B7AE1E71415000D33487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A93B7ED1E7141D300D33487 /* 2.mp4 in Resources */,
+				4A93B7C61E71415000D33487 /* LaunchScreen.storyboard in Resources */,
+				4A93B7C31E71415000D33487 /* Assets.xcassets in Resources */,
+				4A93B7EE1E7141D300D33487 /* 1.mp4 in Resources */,
+				4A93B7BE1E71415000D33487 /* Main.storyboard in Resources */,
+				4A93B7EC1E7141D300D33487 /* 3.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7CA1E71415000D33487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7D51E71415000D33487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BED2E4EE81A07BDEEE29F05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CACBDC8B1D49DF49CED4491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B7D7F37F991A947AE8AAD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A93B7AC1E71415000D33487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A93B7FD1E71668C00D33487 /* UIView+ZHOUExtension.m in Sources */,
+				4A93B8071E7168D700D33487 /* ZHOUThreeViewController.m in Sources */,
+				4A93B8041E7168C100D33487 /* ZHOUTwoViewController.m in Sources */,
+				4A93B7FA1E7165CE00D33487 /* ZHOUTitleButton.m in Sources */,
+				4A93B8011E7168A700D33487 /* ZHOUOneViewController.m in Sources */,
+				4A93B7BB1E71415000D33487 /* ViewController.m in Sources */,
+				4A93B7C11E71415000D33487 /* _______.xcdatamodeld in Sources */,
+				4A93B7B81E71415000D33487 /* AppDelegate.m in Sources */,
+				4A93B7B51E71415000D33487 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7C81E71415000D33487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A93B7D11E71415000D33487 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A93B7D31E71415000D33487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A93B7DC1E71415000D33487 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A93B7CE1E71415000D33487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A93B7AF1E71415000D33487 /* 音频视频播放器 */;
+			targetProxy = 4A93B7CD1E71415000D33487 /* PBXContainerItemProxy */;
+		};
+		4A93B7D91E71415000D33487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A93B7AF1E71415000D33487 /* 音频视频播放器 */;
+			targetProxy = 4A93B7D81E71415000D33487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A93B7BC1E71415000D33487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A93B7BD1E71415000D33487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A93B7C41E71415000D33487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A93B7C51E71415000D33487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A93B7DE1E71415000D33487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A93B7DF1E71415000D33487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A93B7E11E71415000D33487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F95654EBB75BCACD8B0BCAAD /* Pods-音频视频播放器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A93B7E21E71415000D33487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64DE33002F0C02F16B63740 /* Pods-音频视频播放器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A93B7E41E71415000D33487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频视频播放器.app/音频视频播放器";
+			};
+			name = Debug;
+		};
+		4A93B7E51E71415000D33487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频视频播放器.app/音频视频播放器";
+			};
+			name = Release;
+		};
+		4A93B7E71E71415000D33487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音频视频播放器";
+			};
+			name = Debug;
+		};
+		4A93B7E81E71415000D33487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V28X4C3PPV;
+				INFOPLIST_FILE = "音频视频播放器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhouya.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "音频视频播放器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A93B7AB1E71415000D33487 /* Build configuration list for PBXProject "音频视频播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A93B7DE1E71415000D33487 /* Debug */,
+				4A93B7DF1E71415000D33487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A93B7E01E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A93B7E11E71415000D33487 /* Debug */,
+				4A93B7E21E71415000D33487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A93B7E31E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A93B7E41E71415000D33487 /* Debug */,
+				4A93B7E51E71415000D33487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A93B7E61E71415000D33487 /* Build configuration list for PBXNativeTarget "音频视频播放器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A93B7E71E71415000D33487 /* Debug */,
+				4A93B7E81E71415000D33487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A93B7BF1E71415000D33487 /* _______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A93B7C01E71415000D33487 /* _______.xcdatamodel */,
+			);
+			currentVersion = 4A93B7C01E71415000D33487 /* _______.xcdatamodel */;
+			path = "_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A93B7A81E71415000D33487 /* Project object */;
+}
