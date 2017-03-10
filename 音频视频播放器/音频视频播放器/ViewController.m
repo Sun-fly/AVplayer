@@ -34,6 +34,7 @@
     scrollView.frame = self.view.bounds;
     scrollView.pagingEnabled = YES;
     scrollView.delegate = self;
+    scrollView.bounces=NO;
     scrollView.showsHorizontalScrollIndicator = NO;
     scrollView.showsVerticalScrollIndicator = NO;
     scrollView.backgroundColor = [UIColor colorWithRed:(arc4random_uniform(256)) / 255.0 green:(arc4random_uniform(256)) / 255.0 blue:(arc4random_uniform(256)) / 255.0 alpha:1];
@@ -102,6 +103,8 @@
     
     
 }
+
+
 
 ///下划线
 -(void)setupUnderline{

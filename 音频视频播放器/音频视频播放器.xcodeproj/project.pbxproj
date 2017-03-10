@@ -17,8 +17,6 @@
 		4A93B7C61E71415000D33487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7C41E71415000D33487 /* LaunchScreen.storyboard */; };
 		4A93B7D11E71415000D33487 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7D01E71415000D33487 /* _______Tests.m */; };
 		4A93B7DC1E71415000D33487 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7DB1E71415000D33487 /* _______UITests.m */; };
-		4A93B7EC1E7141D300D33487 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7E91E7141D300D33487 /* 3.mp4 */; };
-		4A93B7ED1E7141D300D33487 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7EA1E7141D300D33487 /* 2.mp4 */; };
 		4A93B7EE1E7141D300D33487 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B7EB1E7141D300D33487 /* 1.mp4 */; };
 		4A93B7F11E71543C00D33487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A93B7F01E71543C00D33487 /* AVFoundation.framework */; };
 		4A93B7FA1E7165CE00D33487 /* ZHOUTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B7F91E7165CE00D33487 /* ZHOUTitleButton.m */; };
@@ -26,6 +24,9 @@
 		4A93B8011E7168A700D33487 /* ZHOUOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8001E7168A700D33487 /* ZHOUOneViewController.m */; };
 		4A93B8041E7168C100D33487 /* ZHOUTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8031E7168C100D33487 /* ZHOUTwoViewController.m */; };
 		4A93B8071E7168D700D33487 /* ZHOUThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A93B8061E7168D700D33487 /* ZHOUThreeViewController.m */; };
+		4A93B80B1E71C48F00D33487 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A93B80A1E71C48F00D33487 /* AudioToolbox.framework */; };
+		4A93B8101E71C52B00D33487 /* 186947.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B80D1E71C52B00D33487 /* 186947.mp3 */; };
+		4A93B8111E71C52B00D33487 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 4A93B80E1E71C52B00D33487 /* tap.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +64,6 @@
 		4A93B7D71E71415000D33487 /* 音频视频播放器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频视频播放器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A93B7DB1E71415000D33487 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		4A93B7DD1E71415000D33487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A93B7E91E7141D300D33487 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
-		4A93B7EA1E7141D300D33487 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
 		4A93B7EB1E7141D300D33487 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		4A93B7F01E71543C00D33487 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4A93B7F81E7165CE00D33487 /* ZHOUTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUTitleButton.h; sourceTree = "<group>"; };
@@ -77,6 +76,9 @@
 		4A93B8031E7168C100D33487 /* ZHOUTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUTwoViewController.m; sourceTree = "<group>"; };
 		4A93B8051E7168D700D33487 /* ZHOUThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHOUThreeViewController.h; sourceTree = "<group>"; };
 		4A93B8061E7168D700D33487 /* ZHOUThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHOUThreeViewController.m; sourceTree = "<group>"; };
+		4A93B80A1E71C48F00D33487 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4A93B80D1E71C52B00D33487 /* 186947.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 186947.mp3; sourceTree = "<group>"; };
+		4A93B80E1E71C52B00D33487 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
 		5734411D9F05B366DD1045A8 /* libPods-音频视频播放器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音频视频播放器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64DE33002F0C02F16B63740 /* Pods-音频视频播放器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频视频播放器.release.xcconfig"; path = "Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器.release.xcconfig"; sourceTree = "<group>"; };
 		F95654EBB75BCACD8B0BCAAD /* Pods-音频视频播放器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频视频播放器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-音频视频播放器/Pods-音频视频播放器.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A93B80B1E71C48F00D33487 /* AudioToolbox.framework in Frameworks */,
 				4A93B7F11E71543C00D33487 /* AVFoundation.framework in Frameworks */,
 				21CB55DBFA10F4C2876880EA /* libPods-音频视频播放器.a in Frameworks */,
 			);
@@ -191,6 +194,7 @@
 		4A93B7EF1E71543C00D33487 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A93B80A1E71C48F00D33487 /* AudioToolbox.framework */,
 				4A93B7F01E71543C00D33487 /* AVFoundation.framework */,
 				5734411D9F05B366DD1045A8 /* libPods-音频视频播放器.a */,
 			);
@@ -222,8 +226,8 @@
 		4A93B8091E718D3100D33487 /* video */ = {
 			isa = PBXGroup;
 			children = (
-				4A93B7E91E7141D300D33487 /* 3.mp4 */,
-				4A93B7EA1E7141D300D33487 /* 2.mp4 */,
+				4A93B80D1E71C52B00D33487 /* 186947.mp3 */,
+				4A93B80E1E71C52B00D33487 /* tap.aif */,
 				4A93B7EB1E7141D300D33487 /* 1.mp4 */,
 			);
 			name = video;
@@ -342,12 +346,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A93B7ED1E7141D300D33487 /* 2.mp4 in Resources */,
 				4A93B7C61E71415000D33487 /* LaunchScreen.storyboard in Resources */,
 				4A93B7C31E71415000D33487 /* Assets.xcassets in Resources */,
 				4A93B7EE1E7141D300D33487 /* 1.mp4 in Resources */,
+				4A93B8101E71C52B00D33487 /* 186947.mp3 in Resources */,
+				4A93B8111E71C52B00D33487 /* tap.aif in Resources */,
 				4A93B7BE1E71415000D33487 /* Main.storyboard in Resources */,
-				4A93B7EC1E7141D300D33487 /* 3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
